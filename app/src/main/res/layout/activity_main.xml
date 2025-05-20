@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F1A1A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Помянник"
+        android:textSize="25sp"
+        android:textColor="#9DE9E9"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/loadingBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/headerTV"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#104981"
+        android:text="@string/loadingBTN"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="255dp"
+        android:layout_alignTop="@id/loadingBTN"
+        android:layout_marginTop="56dp"
+        android:background="#160349"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9DE9E9"
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="255dp"
+        android:layout_alignTop="@id/loadingBTN"
+        android:layout_marginTop="334dp"
+        android:background="#160349"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9DE9E9"
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+</RelativeLayout>

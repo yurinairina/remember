@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Remember</string>
+    <string name="loadingBTN">загрузить книгу\n</string>
+</resources>
